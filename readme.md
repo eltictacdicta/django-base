@@ -1,24 +1,25 @@
-# Django proyecto inicial
+# Proyecto inicial de Django
 
-Esqueleto de Django con algunas modificaciones algunas cosas utiles como un gitignore configurado para Django y un sistema de generación de clave secreta para poder publicar tu proyecto sin problemas de seguridad. 
-Este proyecto lo hago para tenerlo como base para cualquier proyecto y partir de el para ahorrar tiempo
+Aquí tienes un esqueleto de Django con algunas modificaciones y cosillas útiles, como un gitignore ya configurado para Django y un sistema para generar claves secretas. Así puedes publicar tu proyecto sin preocuparte por la seguridad. 
+Hice este proyecto para usarlo como base y ahorrar tiempo en futuros proyectos.
 
-## Configuración del entorno
-
-1. Crear el entorno virtual con el comando `python -m venv ./venv`
-1. Asegúrese de tener instalado Python y Django en su sistema.
-2. Clone este repositorio en su sistema local.
-3. Para que funcione tienes que crear una clave secreta, para ello crea un archivo llamado en app/secret.py con: SECRET_KEY = '' y entre comillas pegas el resultado de ejecutar python generador_django.py
-4. Instale las dependencias del proyecto utilizando el comando `pip install -r requirements.txt`.
-5. Ejecuta `python manage.py migrate` para completar la configuración de la base de datos.
-
-## Uso
+## ¿Cómo poner todo en marcha?
 
 
-Ejecutar el entorno virtual con el comando `.\venv\Scripts\activate`
-Inicie el servidor Django con el comando `python manage.py runserver`.
-Para iniciar el scraping web, navegue a la URL `http://localhost:8000/`.
+1. Asegúrate de tener Python. Si tienes Windows, puedes seguir esta guía: [https://misterdigital.es/instalando-python-3-en-windows/](https://misterdigital.es/instalando-python-3-en-windows/)
+2. Clona este repositorio en tu ordenador.
+3. Una vez en la carpeta del proyecto desde la terminal, crea el entorno virtual con `python -m venv ./venv`
+4. Para que todo funcione, necesitas crear una clave secreta. Para ello, crea un archivo en app/secret.py con: SECRET_KEY = '' y entre comillas pega el resultado de ejecutar python generador_django.py
+5. Instala las dependencias del proyecto con `pip install -r requirements.txt`.
+6. Ejecuta `python manage.py migrate` para terminar de configurar la base de datos.
 
-## Contribuir
+## ¿Cómo lo uso?
 
-Las contribuciones son bienvenidas. Por favor, haga un "Fork" del proyecto y proponga cambios a través de un "Pull Request".
+
+Arranca el entorno virtual con `.\venv\Scripts\activate`
+Inicia el servidor Django con `python manage.py runserver`.
+Para iniciar el scraping web, ve a la URL `http://localhost:8000/`.
+
+## ¿Quieres contribuir?
+
+¡Genial! Las contribuciones son bienvenidas. Haz un "Fork" del proyecto y propón tus cambios a través de un "Pull Request".
