@@ -16,7 +16,7 @@ Hice este proyecto para usarlo como base y ahorrar tiempo en futuros proyectos.
 ## ¿Cómo lo uso?
 
 
-Arranca el entorno virtual con `.\venv\Scripts\activate`
+Arranca el entorno virtual con `.\venv\Scripts\activate`.
 Inicia el servidor Django con `python manage.py runserver`.
 Para iniciar el scraping web, ve a la URL `http://localhost:8000/`.
 
