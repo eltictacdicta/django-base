@@ -9,7 +9,7 @@ Hice este proyecto para usarlo como base y ahorrar tiempo en futuros proyectos.
 1. Asegúrate de tener Python. Si tienes Windows, puedes seguir esta guía: [https://misterdigital.es/instalando-python-3-en-windows/](https://misterdigital.es/instalando-python-3-en-windows/)
 2. Clona este repositorio en tu ordenador.
 3. Una vez en la carpeta del proyecto desde la terminal, crea el entorno virtual con `python -m venv ./venv`
-4. Para que todo funcione, necesitas crear una clave secreta. Para ello, crea un archivo en app/secret.py con: SECRET_KEY = '' y entre comillas pega el resultado de ejecutar python generador_django.py
+4. Para que todo funcione, necesitas crear una clave secreta. Para ello ejecutar python generador_django.py esto te generará un archivo .env con la clave privada
 5. Instala las dependencias del proyecto con `pip install -r requirements.txt`.
 6. Ejecuta `python manage.py migrate` para terminar de configurar la base de datos.
 
