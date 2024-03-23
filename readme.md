@@ -1,6 +1,12 @@
 # Proyecto inicial de Django
 
-Aquí tienes un esqueleto de Django con algunas modificaciones y cosillas útiles, como un gitignore ya configurado para Django y un sistema para generar claves secretas. Así puedes publicar tu proyecto sin preocuparte por la seguridad. 
+Aquí tienes un esqueleto de Django con algunas modificaciones y cosillas útiles, como:
+
+- .gitignore ya configurado para Django
+- Sistema para generar claves secretas que permite publicar tu proyecto en Github sin preocuparte por la seguridad
+- Plantilla base con Bootstrap 5
+- Configurado el directorio de archivos estáticos de Django
+
 Hice este proyecto para usarlo como base y ahorrar tiempo en futuros proyectos.
 
 ## ¿Cómo poner todo en marcha?
